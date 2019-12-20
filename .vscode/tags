@@ -1,0 +1,345 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCESS_ALLOWED_ACE	../examples/secdesc.py	/^class ACCESS_ALLOWED_ACE(object):$/;"	kind:class	line:113
+ACCESS_ALLOWED_OBJECT_ACE	../examples/secdesc.py	/^class ACCESS_ALLOWED_OBJECT_ACE(object):$/;"	kind:class	line:124
+ACCESS_DENIED_ACE	../examples/secdesc.py	/^class ACCESS_DENIED_ACE(ACCESS_ALLOWED_ACE):$/;"	kind:class	line:120
+ACCESS_DENIED_OBJECT_ACE	../examples/secdesc.py	/^class ACCESS_DENIED_OBJECT_ACE(ACCESS_ALLOWED_OBJECT_ACE):$/;"	kind:class	line:145
+ACCESS_MASK	../examples/secdesc.py	/^class ACCESS_MASK(object):$/;"	kind:class	line:153
+ACCESS_SYSTEM_SECURITY	../examples/secdesc.py	/^    ACCESS_SYSTEM_SECURITY  = 0x01000000$/;"	kind:variable	line:160
+ACE	../examples/secdesc.py	/^class ACE(object):$/;"	kind:class	line:180
+ACE_INHERITED_OBJECT_TYPE_PRESENT	../examples/secdesc.py	/^    ACE_INHERITED_OBJECT_TYPE_PRESENT   = 0x02$/;"	kind:variable	line:127
+ACE_OBJECT_TYPE_PRESENT	../examples/secdesc.py	/^    ACE_OBJECT_TYPE_PRESENT             = 0x01$/;"	kind:variable	line:126
+ACL	../examples/secdesc.py	/^class ACL(object):$/;"	kind:class	line:102
+ADS_RIGHT_DS_CONTROL_ACCESS	../examples/secdesc.py	/^    ADS_RIGHT_DS_CONTROL_ACCESS         = 0x00000100$/;"	kind:variable	line:132
+ADS_RIGHT_DS_CREATE_CHILD	../examples/secdesc.py	/^    ADS_RIGHT_DS_CREATE_CHILD           = 0x00000001$/;"	kind:variable	line:133
+ADS_RIGHT_DS_DELETE_CHILD	../examples/secdesc.py	/^    ADS_RIGHT_DS_DELETE_CHILD           = 0x00000002$/;"	kind:variable	line:134
+ADS_RIGHT_DS_READ_PROP	../examples/secdesc.py	/^    ADS_RIGHT_DS_READ_PROP              = 0x00000010$/;"	kind:variable	line:135
+ADS_RIGHT_DS_SELF	../examples/secdesc.py	/^    ADS_RIGHT_DS_SELF                   = 0x00000008$/;"	kind:variable	line:137
+ADS_RIGHT_DS_WRITE_PROP	../examples/secdesc.py	/^    ADS_RIGHT_DS_WRITE_PROP             = 0x00000020$/;"	kind:variable	line:136
+Array	../dissect/cstruct/cstruct.py	/^class Array(BaseType):$/;"	kind:class	line:981
+BaseType	../dissect/cstruct/cstruct.py	/^class BaseType(object):$/;"	kind:class	line:620
+BitBuffer	../dissect/cstruct/cstruct.py	/^class BitBuffer(object):$/;"	kind:class	line:914
+BytesInteger	../dissect/cstruct/cstruct.py	/^class BytesInteger(RawType):$/;"	kind:class	line:1189
+COLOR_BG_BLUE	../dissect/cstruct/cstruct.py	/^COLOR_BG_BLUE = '\\033[1;44m\\033[1;37m'$/;"	kind:variable	line:60
+COLOR_BG_CYAN	../dissect/cstruct/cstruct.py	/^COLOR_BG_CYAN = '\\033[1;46m\\033[1;37m'$/;"	kind:variable	line:62
+COLOR_BG_GREEN	../dissect/cstruct/cstruct.py	/^COLOR_BG_GREEN = '\\033[1;42m\\033[1;37m'$/;"	kind:variable	line:58
+COLOR_BG_PURPLE	../dissect/cstruct/cstruct.py	/^COLOR_BG_PURPLE = '\\033[1;45m\\033[1;37m'$/;"	kind:variable	line:61
+COLOR_BG_RED	../dissect/cstruct/cstruct.py	/^COLOR_BG_RED = '\\033[1;41m\\033[1;37m'$/;"	kind:variable	line:57
+COLOR_BG_WHITE	../dissect/cstruct/cstruct.py	/^COLOR_BG_WHITE = '\\033[1;47m\\033[1;30m'$/;"	kind:variable	line:63
+COLOR_BG_YELLOW	../dissect/cstruct/cstruct.py	/^COLOR_BG_YELLOW = '\\033[1;43m\\033[1;37m'$/;"	kind:variable	line:59
+COLOR_BLUE	../dissect/cstruct/cstruct.py	/^COLOR_BLUE = '\\033[1;34m'$/;"	kind:variable	line:51
+COLOR_CYAN	../dissect/cstruct/cstruct.py	/^COLOR_CYAN = '\\033[1;36m'$/;"	kind:variable	line:53
+COLOR_GREEN	../dissect/cstruct/cstruct.py	/^COLOR_GREEN = '\\033[1;32m'$/;"	kind:variable	line:49
+COLOR_NORMAL	../dissect/cstruct/cstruct.py	/^COLOR_NORMAL = '\\033[1;0m'$/;"	kind:variable	line:55
+COLOR_PURPLE	../dissect/cstruct/cstruct.py	/^COLOR_PURPLE = '\\033[1;35m'$/;"	kind:variable	line:52
+COLOR_RED	../dissect/cstruct/cstruct.py	/^COLOR_RED = '\\033[1;31m'$/;"	kind:variable	line:48
+COLOR_WHITE	../dissect/cstruct/cstruct.py	/^COLOR_WHITE = '\\033[1;37m'$/;"	kind:variable	line:54
+COLOR_YELLOW	../dissect/cstruct/cstruct.py	/^COLOR_YELLOW = '\\033[1;33m'$/;"	kind:variable	line:50
+CONTAINER_INHERIT_ACE	../examples/secdesc.py	/^    CONTAINER_INHERIT_ACE       = 0x01$/;"	kind:variable	line:181
+CStyleParser	../dissect/cstruct/cstruct.py	/^class CStyleParser(Parser):$/;"	kind:class	line:301
+CharType	../dissect/cstruct/cstruct.py	/^class CharType(RawType):$/;"	kind:class	line:1084
+Compiler	../dissect/cstruct/cstruct.py	/^class Compiler(object):$/;"	kind:class	line:1458
+CompilerError	../dissect/cstruct/cstruct.py	/^class CompilerError(Error):$/;"	kind:class	line:99
+DEBUG	../dissect/cstruct/cstruct.py	/^DEBUG = False$/;"	kind:variable	line:46
+DEF_CSTYLE	../dissect/cstruct/cstruct.py	/^    DEF_CSTYLE = 1$/;"	kind:variable	line:126
+DELETE	../examples/secdesc.py	/^    DELETE                  = 0x00010000$/;"	kind:variable	line:165
+Enum	../dissect/cstruct/cstruct.py	/^class Enum(RawType):$/;"	kind:class	line:1276
+EnumInstance	../dissect/cstruct/cstruct.py	/^class EnumInstance(object):$/;"	kind:class	line:1350
+Error	../dissect/cstruct/cstruct.py	/^class Error(Exception):$/;"	kind:class	line:91
+Expression	../dissect/cstruct/cstruct.py	/^class Expression(object):$/;"	kind:class	line:555
+FAILED_ACCESS_ACE_FLAG	../examples/secdesc.py	/^    FAILED_ACCESS_ACE_FLAG      = 0x80$/;"	kind:variable	line:182
+Field	../dissect/cstruct/cstruct.py	/^class Field(object):$/;"	kind:class	line:968
+GENERIC_ALL	../examples/secdesc.py	/^    GENERIC_ALL             = 0x10000000$/;"	kind:variable	line:158
+GENERIC_EXECUTE	../examples/secdesc.py	/^    GENERIC_EXECUTE         = 0x20000000$/;"	kind:variable	line:157
+GENERIC_READ	../examples/secdesc.py	/^    GENERIC_READ            = 0x80000000$/;"	kind:variable	line:155
+GENERIC_WRITE	../examples/secdesc.py	/^    GENERIC_WRITE           = 0x04000000$/;"	kind:variable	line:156
+INHERITED_ACE	../examples/secdesc.py	/^    INHERITED_ACE               = 0x10$/;"	kind:variable	line:184
+INHERIT_ONLY_ACE	../examples/secdesc.py	/^    INHERIT_ONLY_ACE            = 0x08$/;"	kind:variable	line:183
+Instance	../dissect/cstruct/cstruct.py	/^class Instance(object):$/;"	kind:class	line:450
+LdapSid	../examples/secdesc.py	/^class LdapSid(object):$/;"	kind:class	line:90
+MAXIMUM_ALLOWED	../examples/secdesc.py	/^    MAXIMUM_ALLOWED         = 0x02000000$/;"	kind:variable	line:159
+NO_PROPAGATE_INHERIT_ACE	../examples/secdesc.py	/^    NO_PROPAGATE_INHERIT_ACE    = 0x04$/;"	kind:variable	line:185
+NullPointerDereference	../dissect/cstruct/cstruct.py	/^class NullPointerDereference(Error):$/;"	kind:class	line:107
+OBJECT_INHERIT_ACE	../examples/secdesc.py	/^    OBJECT_INHERIT_ACE          = 0x01$/;"	kind:variable	line:186
+PRINTABLE	../dissect/cstruct/cstruct.py	/^PRINTABLE = string.digits + string.ascii_letters + string.punctuation + " "$/;"	kind:variable	line:65
+PY3	../dissect/cstruct/cstruct.py	/^PY3 = sys.version_info > (3,)$/;"	kind:variable	line:41
+PackedType	../dissect/cstruct/cstruct.py	/^class PackedType(RawType):$/;"	kind:class	line:1035
+Parser	../dissect/cstruct/cstruct.py	/^class Parser(object):$/;"	kind:class	line:282
+ParserError	../dissect/cstruct/cstruct.py	/^class ParserError(Error):$/;"	kind:class	line:95
+Partition	../examples/disk.py	/^class Partition(object):$/;"	kind:class	line:84
+Pointer	../dissect/cstruct/cstruct.py	/^class Pointer(RawType):$/;"	kind:class	line:1394
+PointerInstance	../dissect/cstruct/cstruct.py	/^class PointerInstance(object):$/;"	kind:class	line:515
+READ_CONTROL	../examples/secdesc.py	/^    READ_CONTROL            = 0x00020000$/;"	kind:variable	line:164
+RawType	../dissect/cstruct/cstruct.py	/^class RawType(BaseType):$/;"	kind:class	line:722
+ResolveError	../dissect/cstruct/cstruct.py	/^class ResolveError(Error):$/;"	kind:class	line:103
+SECTOR_SIZE	../examples/disk.py	/^SECTOR_SIZE = 512$/;"	kind:variable	line:81
+SUCCESSFUL_ACCESS_ACE_FLAG	../examples/secdesc.py	/^    SUCCESSFUL_ACCESS_ACE_FLAG  = 0x04$/;"	kind:variable	line:187
+SYNCHRONIZE	../examples/secdesc.py	/^    SYNCHRONIZE             = 0x00100000$/;"	kind:variable	line:161
+SecurityDescriptor	../examples/secdesc.py	/^class SecurityDescriptor(object):$/;"	kind:class	line:63
+Structure	../dissect/cstruct/cstruct.py	/^class Structure(BaseType):$/;"	kind:class	line:740
+Union	../dissect/cstruct/cstruct.py	/^class Union(RawType):$/;"	kind:class	line:1385
+VoidType	../dissect/cstruct/cstruct.py	/^class VoidType(RawType):$/;"	kind:class	line:1413
+WRITE_DACL	../examples/secdesc.py	/^    WRITE_DACL              = 0x00040000$/;"	kind:variable	line:163
+WRITE_OWNER	../examples/secdesc.py	/^    WRITE_OWNER             = 0x00080000$/;"	kind:variable	line:162
+WcharType	../dissect/cstruct/cstruct.py	/^class WcharType(RawType):$/;"	kind:class	line:1135
+__all__	../dissect/cstruct/__init__.py	/^__all__ = [$/;"	kind:variable	line:18
+__call__	../dissect/cstruct/cstruct.py	/^    def __call__(self, *args, **kwargs):$/;"	kind:member	line:710
+__call__	../dissect/cstruct/cstruct.py	/^    def __call__(self, value):$/;"	kind:member	line:1306
+__contains__	../dissect/cstruct/cstruct.py	/^    def __contains__(self, attr):$/;"	kind:member	line:1346
+__contains__	../dissect/cstruct/cstruct.py	/^    def __contains__(self, attr):$/;"	kind:member	line:494
+__eq__	../dissect/cstruct/cstruct.py	/^    def __eq__(self, value):$/;"	kind:member	line:1363
+__getattr__	../dissect/cstruct/cstruct.py	/^    def __getattr__(self, attr):$/;"	kind:member	line:1340
+__getattr__	../dissect/cstruct/cstruct.py	/^    def __getattr__(self, attr):$/;"	kind:member	line:272
+__getattr__	../dissect/cstruct/cstruct.py	/^    def __getattr__(self, attr):$/;"	kind:member	line:479
+__getattr__	../dissect/cstruct/cstruct.py	/^    def __getattr__(self, attr):$/;"	kind:member	line:542
+__getitem__	../dissect/cstruct/cstruct.py	/^    def __getitem__(self, attr):$/;"	kind:member	line:1334
+__getitem__	../dissect/cstruct/cstruct.py	/^    def __getitem__(self, count):$/;"	kind:member	line:707
+__getitem__	../dissect/cstruct/cstruct.py	/^    def __getitem__(self, item):$/;"	kind:member	line:491
+__hash__	../dissect/cstruct/cstruct.py	/^    def __hash__(self):$/;"	kind:member	line:1375
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self):$/;"	kind:member	line:1416
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct):$/;"	kind:member	line:1087
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct):$/;"	kind:member	line:1138
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct):$/;"	kind:member	line:1386
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct):$/;"	kind:member	line:1461
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct):$/;"	kind:member	line:289
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct):$/;"	kind:member	line:623
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct, compiled=True):$/;"	kind:member	line:309
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct, expr):$/;"	kind:member	line:569
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct, name, fields=None):$/;"	kind:member	line:743
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct, name, size, packchar):$/;"	kind:member	line:1038
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct, name, size, signed):$/;"	kind:member	line:1192
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct, name, type_, values):$/;"	kind:member	line:1296
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct, name=None, size=0):$/;"	kind:member	line:725
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct, target):$/;"	kind:member	line:1397
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, cstruct, type_, count):$/;"	kind:member	line:992
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, endian='<', pointer='uint64'):$/;"	kind:member	line:128
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, enum, value):$/;"	kind:member	line:1353
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, name, type_, bits=None, offset=None):$/;"	kind:member	line:971
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, stream, endian):$/;"	kind:member	line:917
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, t, stream, addr, ctx):$/;"	kind:member	line:518
+__init__	../dissect/cstruct/cstruct.py	/^    def __init__(self, type_, values, sizes=None):$/;"	kind:member	line:453
+__init__	../examples/disk.py	/^    def __init__(self, disk, offset, size, vtype, name, guid=None):$/;"	kind:member	line:85
+__init__	../examples/secdesc.py	/^    def __init__(self, fh):$/;"	kind:member	line:103
+__init__	../examples/secdesc.py	/^    def __init__(self, fh):$/;"	kind:member	line:114
+__init__	../examples/secdesc.py	/^    def __init__(self, fh):$/;"	kind:member	line:139
+__init__	../examples/secdesc.py	/^    def __init__(self, fh):$/;"	kind:member	line:189
+__init__	../examples/secdesc.py	/^    def __init__(self, fh):$/;"	kind:member	line:64
+__init__	../examples/secdesc.py	/^    def __init__(self, fh=None, in_obj=None):$/;"	kind:member	line:91
+__init__	../examples/secdesc.py	/^    def __init__(self, mask):$/;"	kind:member	line:167
+__init__.py	../dissect/cstruct/__init__.py	1;"	kind:file	line:1
+__len__	../dissect/cstruct/cstruct.py	/^    def __len__(self):$/;"	kind:member	line:1028
+__len__	../dissect/cstruct/cstruct.py	/^    def __len__(self):$/;"	kind:member	line:1406
+__len__	../dissect/cstruct/cstruct.py	/^    def __len__(self):$/;"	kind:member	line:508
+__len__	../dissect/cstruct/cstruct.py	/^    def __len__(self):$/;"	kind:member	line:730
+__len__	../dissect/cstruct/cstruct.py	/^    def __len__(self):$/;"	kind:member	line:888
+__ne__	../dissect/cstruct/cstruct.py	/^    def __ne__(self, value):$/;"	kind:member	line:1372
+__nonzero__	../dissect/cstruct/cstruct.py	/^    def __nonzero__(self):$/;"	kind:member	line:548
+__repr__	../dissect/cstruct/cstruct.py	/^    def __repr__(self):$/;"	kind:member	line:1022
+__repr__	../dissect/cstruct/cstruct.py	/^    def __repr__(self):$/;"	kind:member	line:1381
+__repr__	../dissect/cstruct/cstruct.py	/^    def __repr__(self):$/;"	kind:member	line:1409
+__repr__	../dissect/cstruct/cstruct.py	/^    def __repr__(self):$/;"	kind:member	line:497
+__repr__	../dissect/cstruct/cstruct.py	/^    def __repr__(self):$/;"	kind:member	line:551
+__repr__	../dissect/cstruct/cstruct.py	/^    def __repr__(self):$/;"	kind:member	line:616
+__repr__	../dissect/cstruct/cstruct.py	/^    def __repr__(self):$/;"	kind:member	line:733
+__repr__	../dissect/cstruct/cstruct.py	/^    def __repr__(self):$/;"	kind:member	line:894
+__repr__	../dissect/cstruct/cstruct.py	/^    def __repr__(self):$/;"	kind:member	line:977
+__repr__	../examples/disk.py	/^    def __repr__(self):$/;"	kind:member	line:93
+__repr__	../examples/secdesc.py	/^    def __repr__(self):$/;"	kind:member	line:212
+__repr__	../examples/secdesc.py	/^    def __repr__(self):$/;"	kind:member	line:98
+__setattr__	../dissect/cstruct/cstruct.py	/^    def __setattr__(self, attr, value):$/;"	kind:member	line:485
+__str__	../dissect/cstruct/cstruct.py	/^    def __str__(self):$/;"	kind:member	line:1378
+__str__	../dissect/cstruct/cstruct.py	/^    def __str__(self):$/;"	kind:member	line:545
+_calc_offsets	../dissect/cstruct/cstruct.py	/^    def _calc_offsets(self):$/;"	kind:member	line:755
+_calc_size	../dissect/cstruct/cstruct.py	/^    def _calc_size(self):$/;"	kind:member	line:781
+_constants	../dissect/cstruct/cstruct.py	/^    def _constants(self, data):$/;"	kind:member	line:320
+_enums	../dissect/cstruct/cstruct.py	/^    def _enums(self, data):$/;"	kind:member	line:333
+_get	../dissect/cstruct/cstruct.py	/^    def _get(self):$/;"	kind:member	line:525
+_lookups	../dissect/cstruct/cstruct.py	/^    def _lookups(self, data, consts):$/;"	kind:member	line:440
+_parse_fields	../dissect/cstruct/cstruct.py	/^    def _parse_fields(self, s):$/;"	kind:member	line:402
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream):$/;"	kind:member	line:1042
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream):$/;"	kind:member	line:1090
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream):$/;"	kind:member	line:1148
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream):$/;"	kind:member	line:1244
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream):$/;"	kind:member	line:1309
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream):$/;"	kind:member	line:1390
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream):$/;"	kind:member	line:1419
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream):$/;"	kind:member	line:678
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream, *args, **kwargs):$/;"	kind:member	line:804
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream, context=None):$/;"	kind:member	line:999
+_read	../dissect/cstruct/cstruct.py	/^    def _read(self, stream, ctx):$/;"	kind:member	line:1402
+_read_0	../dissect/cstruct/cstruct.py	/^    def _read_0(self, stream):$/;"	kind:member	line:1054
+_read_0	../dissect/cstruct/cstruct.py	/^    def _read_0(self, stream):$/;"	kind:member	line:1099
+_read_0	../dissect/cstruct/cstruct.py	/^    def _read_0(self, stream):$/;"	kind:member	line:1158
+_read_0	../dissect/cstruct/cstruct.py	/^    def _read_0(self, stream):$/;"	kind:member	line:1250
+_read_0	../dissect/cstruct/cstruct.py	/^    def _read_0(self, stream):$/;"	kind:member	line:1316
+_read_0	../dissect/cstruct/cstruct.py	/^    def _read_0(self, stream):$/;"	kind:member	line:684
+_read_array	../dissect/cstruct/cstruct.py	/^    def _read_array(self, stream, count):$/;"	kind:member	line:1045
+_read_array	../dissect/cstruct/cstruct.py	/^    def _read_array(self, stream, count):$/;"	kind:member	line:1093
+_read_array	../dissect/cstruct/cstruct.py	/^    def _read_array(self, stream, count):$/;"	kind:member	line:1151
+_read_array	../dissect/cstruct/cstruct.py	/^    def _read_array(self, stream, count):$/;"	kind:member	line:1247
+_read_array	../dissect/cstruct/cstruct.py	/^    def _read_array(self, stream, count):$/;"	kind:member	line:1313
+_read_array	../dissect/cstruct/cstruct.py	/^    def _read_array(self, stream, count):$/;"	kind:member	line:681
+_size	../dissect/cstruct/cstruct.py	/^    def _size(self, field):$/;"	kind:member	line:511
+_structs	../dissect/cstruct/cstruct.py	/^    def _structs(self, data):$/;"	kind:member	line:368
+_write	../dissect/cstruct/cstruct.py	/^    def _write(self, f, data):$/;"	kind:member	line:1010
+_write	../dissect/cstruct/cstruct.py	/^    def _write(self, stream, data):$/;"	kind:member	line:1067
+_write	../dissect/cstruct/cstruct.py	/^    def _write(self, stream, data):$/;"	kind:member	line:1113
+_write	../dissect/cstruct/cstruct.py	/^    def _write(self, stream, data):$/;"	kind:member	line:1173
+_write	../dissect/cstruct/cstruct.py	/^    def _write(self, stream, data):$/;"	kind:member	line:1260
+_write	../dissect/cstruct/cstruct.py	/^    def _write(self, stream, data):$/;"	kind:member	line:1319
+_write	../dissect/cstruct/cstruct.py	/^    def _write(self, stream, data):$/;"	kind:member	line:687
+_write	../dissect/cstruct/cstruct.py	/^    def _write(self, stream, data):$/;"	kind:member	line:842
+_write_0	../dissect/cstruct/cstruct.py	/^    def _write_0(self, stream, data):$/;"	kind:member	line:1074
+_write_0	../dissect/cstruct/cstruct.py	/^    def _write_0(self, stream, data):$/;"	kind:member	line:1125
+_write_0	../dissect/cstruct/cstruct.py	/^    def _write_0(self, stream, data):$/;"	kind:member	line:1179
+_write_0	../dissect/cstruct/cstruct.py	/^    def _write_0(self, stream, data):$/;"	kind:member	line:1266
+_write_0	../dissect/cstruct/cstruct.py	/^    def _write_0(self, stream, data):$/;"	kind:member	line:1327
+_write_0	../dissect/cstruct/cstruct.py	/^    def _write_0(self, stream, data):$/;"	kind:member	line:696
+_write_array	../dissect/cstruct/cstruct.py	/^    def _write_array(self, stream, data):$/;"	kind:member	line:1070
+_write_array	../dissect/cstruct/cstruct.py	/^    def _write_array(self, stream, data):$/;"	kind:member	line:1122
+_write_array	../dissect/cstruct/cstruct.py	/^    def _write_array(self, stream, data):$/;"	kind:member	line:1176
+_write_array	../dissect/cstruct/cstruct.py	/^    def _write_array(self, stream, data):$/;"	kind:member	line:1263
+_write_array	../dissect/cstruct/cstruct.py	/^    def _write_array(self, stream, data):$/;"	kind:member	line:1323
+_write_array	../dissect/cstruct/cstruct.py	/^    def _write_array(self, stream, data):$/;"	kind:member	line:690
+add_field	../dissect/cstruct/cstruct.py	/^    def add_field(self, name, type_, offset=None):$/;"	kind:member	line:862
+addtype	../dissect/cstruct/cstruct.py	/^    def addtype(self, name, t, replace=False):$/;"	kind:member	line:180
+author	../setup.py	/^    author="Fox-IT",$/;"	kind:variable	line:9
+c_disk	../examples/disk.py	/^c_disk = cstruct.cstruct()$/;"	kind:variable	line:78
+c_secd	../examples/secdesc.py	/^c_secd = cstruct.cstruct()$/;"	kind:variable	line:59
+classifiers	../setup.py	/^    classifiers=[$/;"	kind:variable	line:18
+compile	../dissect/cstruct/cstruct.py	/^    def compile(self, structure):$/;"	kind:member	line:1464
+cstruct	../dissect/cstruct/cstruct.py	/^class cstruct(object):$/;"	kind:class	line:118
+cstruct.py	../dissect/cstruct/cstruct.py	1;"	kind:file	line:1
+ctypes	../dissect/cstruct/cstruct.py	/^def ctypes(structure):$/;"	kind:function	line:1423
+ctypes_type	../dissect/cstruct/cstruct.py	/^def ctypes_type(t):$/;"	kind:function	line:1434
+d	../examples/secdesc.py	/^    d = BytesIO(zlib.decompress(binascii.unhexlify("789c636410e949916060680062110606861e206661a8606002d2ec51160c0a409a1988f759f37dfe30ffa2e03620e70773fac1a555d3f63fe3bd20b8a89561158381e723464606100093c8faf693a08f85e1867809906665f080eb175050885f5a7941708202c301ff4357ceb7a1eb6705eb671505d9354365a9b7e91ff127ae3ed9200f209b135089aa8f5c7382a964ce85fd5c7659421704172400f5e518bf25cd1c0b060e68a0b94f7d5c24517d5170ed7b60f8dcb87a96587d1deecb3eb3055f145c7914122f84f429c022c949cce780c205c1e5194077e6b16a12d26700d5574fa4ff58c1fa74c06104d2b7025d1f13441fc83d6a50b50250b5b21b57baad4b8872d8fee27f57c495b04bc86a0dc06a35c00a416a83a58a56ebcb5d109c210934d7216836723a04a9c319be1075ac5c68ea30c2134d1d2c1cda766c2df79a725170dd5e4c750c0c2a0c57189919f0852948cd7f467e026a24206a90fcaf02668b40c215c54e118629404d30316ea818583f544c084c20f2b42987ce8e17323ece3b3e843c929ab7e12646da45f6bb10240d80f4bd09489abffbbeae7383e263e5eb9f184ee0d527e5010e30662c71b58bc8b454c6826a4ec1544d865c1544da25d51c76a83f184f969e7c9593efdd2c79added5652a1bb1e694b040c283119a1644ce6878988bec719dcdbe369f312e5e03affd48fa882d2bd0f5cd21531f46994da43e92c21749df05b92d313e7c407d6dc4e983e57f62cba642347de24b366f0c7d33d171b3fa763de3c75d9f08c51f4c9febcdaa59c1a72e0aeebec0d0703cade000b1fa32484c2f307d9d5d9af233eeed70df7a365cebaaad5a1db1fa26569267df42952bf149487514217d0a507d6c44fa2f834c7da568fab8484c67307d7cdf4aec8aed8065f601fc7520ba3b89d587ee4e62d319ba7dc4ea43b74f8ac87847b78f587de8f6c931cd9a15ed050c97c3f8c3053dbd281c9cc674cb817078a2c79fda4bdfc9f3365c125cc506ac9bfbdede20d63e770bd3b89ccffb3c967ff7cc08610ab021565fc029ebde3a59607e68242d3fa0b719898d0762f5a1c7430863ef931f7b2e0ab63301c365674200d1faf4a3d575679cf5ddb0f6a929a34bdc6f62fd1742a6ff88d587eece4432ed23561fba7dc496d7e8e9b390c8f2135d5ff97383905787551c26e8dd7d3849c12d93d878a84c48c86fb292f6e9fb7de7c44959b57fc4eaab22d37fc4b6e9d1ed6b7ae595786cf505df851ed7aa228f6b8811abafa5d239ede8e17ecf4d99332a24df7b7813ab0fa3cd4d64bc7796dc5ff1ea28b07e3f8dbf7e474f67c4eac3b08fc8fa1dc33e22f5a1db37ebff8f0f130509a74f74fb88d5871e0fc4ea4377e7dcbc033a75f9594e1daa4ca2f7c4f30489b58fd8f60bbaff88d587eece1d8f938db2ff26f8b47f32d9bb6a6ee66b62ddb9872f59e3aa23b0fe3b485a3b84587de8ee3c406439889edfd1c72c88d577f9f8969af6f60d4e5b2c6c62dd675d9623142eb0be32ff35f7e809099b1ce69b6bf9bee83748c6a58f0fd4b797b26070606001777f49ea5721e923b5bf02ee2303e53678763036aebc24b8f23ffe76480699fa4aa1ee04850ac9fe1342e823a9df88641f49fd46247d24f51b91f491d62f47e823a9df2880180b5b96cb34db8637c6adfb5de0cceb6231bbf08e694941f43163d187633c83196c9810c9fae0e32702507db9f38e6d3fae7349b0d58f61c1c9e66f1cb8f4713240dc894b1f467c12a90f235e90f5218d0f4dae967ee51177d56d4f8eef97bfcbbb4cf18ff3e880c79fb0a66ba4f12b2d2654b5187ec0a316c3dde86a8534708f0540dd2ac280aa0ea3ce85aae386aa8395614f0f57d8cffabed76dc18eb91282b9772a51e316a88e11a2ee9efbb389f9370bbca7865fb3fff2f9cc0d94313a2115c8181d9e7285909a52a81a7c6387ec4c84d5f083d54830808c430f4790f85eb4714705201b5f7ec2270700bed3f0c5")))$/;"	kind:variable	line:218
+data	../examples/mirai.py	/^    data = b"\\x000\\x00\\x00\\x00d\\n\\x01\\x08\\x08\\x08\\x08 \\x03\\x08\\x16http:\/\/www.example.com\\x07\\x0280\\x18\\x045000"$/;"	kind:variable	line:40
+default	../dissect/cstruct/cstruct.py	/^    def default(self):$/;"	kind:member	line:1016
+default	../dissect/cstruct/cstruct.py	/^    def default(self):$/;"	kind:member	line:1077
+default	../dissect/cstruct/cstruct.py	/^    def default(self):$/;"	kind:member	line:1128
+default	../dissect/cstruct/cstruct.py	/^    def default(self):$/;"	kind:member	line:1182
+default	../dissect/cstruct/cstruct.py	/^    def default(self):$/;"	kind:member	line:1269
+default	../dissect/cstruct/cstruct.py	/^    def default(self):$/;"	kind:member	line:1331
+default	../dissect/cstruct/cstruct.py	/^    def default(self):$/;"	kind:member	line:699
+default	../dissect/cstruct/cstruct.py	/^    def default(self):$/;"	kind:member	line:876
+default_array	../dissect/cstruct/cstruct.py	/^    def default_array(self):$/;"	kind:member	line:703
+default_array	../dissect/cstruct/cstruct.py	/^    def default_array(self, count):$/;"	kind:member	line:1080
+default_array	../dissect/cstruct/cstruct.py	/^    def default_array(self, count):$/;"	kind:member	line:1131
+default_array	../dissect/cstruct/cstruct.py	/^    def default_array(self, count):$/;"	kind:member	line:1185
+default_array	../dissect/cstruct/cstruct.py	/^    def default_array(self, count):$/;"	kind:member	line:1272
+description	../setup.py	/^    description="Structure parsing in Python made easy.",$/;"	kind:variable	line:10
+disk.py	../examples/disk.py	1;"	kind:file	line:1
+dumps	../dissect/cstruct/cstruct.py	/^    def dumps(self):$/;"	kind:member	line:469
+dumps	../dissect/cstruct/cstruct.py	/^    def dumps(self, data):$/;"	kind:member	line:638
+dumpstruct	../dissect/cstruct/cstruct.py	/^def dumpstruct(t, data=None, offset=0):$/;"	kind:function	line:1842
+encoding	../dissect/cstruct/cstruct.py	/^    def encoding(self):$/;"	kind:member	line:1142
+evaluate	../dissect/cstruct/cstruct.py	/^    def evaluate(self, context=None):$/;"	kind:member	line:573
+evaluate_part	../dissect/cstruct/cstruct.py	/^    def evaluate_part(self, e, v):$/;"	kind:member	line:597
+fh	../examples/disk.py	/^    fh = open(sys.argv[1], 'rb')$/;"	kind:variable	line:117
+fh	../examples/pe.py	/^    fh = open(sys.argv[1], 'rb')$/;"	kind:variable	line:136
+file_header	../examples/pe.py	/^    file_header = pestruct.IMAGE_FILE_HEADER(fh)$/;"	kind:variable	line:147
+flush	../dissect/cstruct/cstruct.py	/^    def flush(self):$/;"	kind:member	line:956
+gen_dynamic_block	../dissect/cstruct/cstruct.py	/^    def gen_dynamic_block(self, field):$/;"	kind:member	line:1707
+gen_read_block	../dissect/cstruct/cstruct.py	/^    def gen_read_block(self, size, block):$/;"	kind:member	line:1583
+gen_struct_class	../dissect/cstruct/cstruct.py	/^    def gen_struct_class(self, structure):$/;"	kind:member	line:1486
+gpt	../examples/disk.py	/^            gpt = c_disk.GPT_HEADER(fh)$/;"	kind:variable	line:128
+has_priv	../examples/secdesc.py	/^    def has_priv(self, priv):$/;"	kind:member	line:170
+hexdump	../dissect/cstruct/cstruct.py	/^def hexdump(s, palette=None, offset=0, prefix=""):$/;"	kind:function	line:1783
+keywords	../setup.py	/^    keywords="cstruct struct dissect structure binary pack packer unpack unpacker parser parsing",$/;"	kind:variable	line:14
+license	../setup.py	/^    license="MIT",$/;"	kind:variable	line:13
+load	../dissect/cstruct/cstruct.py	/^    def load(self, s, deftype=None, **kwargs):$/;"	kind:member	line:197
+loadfile	../dissect/cstruct/cstruct.py	/^    def loadfile(self, s, deftype=None, **kwargs):$/;"	kind:member	line:217
+log	../dissect/cstruct/cstruct.py	/^def log(line, *args, **kwargs):$/;"	kind:function	line:111
+long	../dissect/cstruct/cstruct.py	/^    long = int$/;"	kind:variable	line:43
+long_description	../setup.py	/^    long_description = fh.read()$/;"	kind:variable	line:4
+long_description	../setup.py	/^    long_description=long_description,$/;"	kind:variable	line:11
+long_description_content_type	../setup.py	/^    long_description_content_type="text\/markdown",$/;"	kind:variable	line:12
+mbr	../examples/disk.py	/^    mbr = c_disk.mbr(fh)$/;"	kind:variable	line:118
+mirai.py	../examples/mirai.py	1;"	kind:file	line:1
+mz	../examples/pe.py	/^    mz = pestruct.IMAGE_DOS_HEADER(fh)$/;"	kind:variable	line:138
+name	../dissect/cstruct/cstruct.py	/^    def name(self):$/;"	kind:member	line:1358
+name	../setup.py	/^    name="dissect.cstruct",$/;"	kind:variable	line:7
+namespace_packages	../setup.py	/^    namespace_packages=['dissect'],$/;"	kind:variable	line:16
+newbytes	../dissect/cstruct/cstruct.py	/^    newbytes = bytes$/;"	kind:variable	line:39
+operators	../dissect/cstruct/cstruct.py	/^    operators = [$/;"	kind:variable	line:558
+optional_header	../examples/pe.py	/^        optional_header = pestruct.IMAGE_OPTIONAL_HEADER(fh)$/;"	kind:variable	line:151
+optional_header	../examples/pe.py	/^        optional_header = pestruct.IMAGE_OPTIONAL_HEADER64(fh)$/;"	kind:variable	line:149
+p	../examples/disk.py	/^                p = c_disk.GPT_PARTITION(fh)$/;"	kind:variable	line:133
+pack	../dissect/cstruct/cstruct.py	/^    def pack(data, size, endian):$/;"	kind:member	line:1219
+packages	../setup.py	/^    packages=['dissect.cstruct'],$/;"	kind:variable	line:17
+parse	../dissect/cstruct/cstruct.py	/^    def parse(buf, size, count, signed, endian):$/;"	kind:member	line:1197
+parse	../dissect/cstruct/cstruct.py	/^    def parse(self, data):$/;"	kind:member	line:292
+parse	../dissect/cstruct/cstruct.py	/^    def parse(self, data):$/;"	kind:member	line:314
+part	../examples/disk.py	/^                part = Partition($/;"	kind:variable	line:137
+partitions	../examples/disk.py	/^def partitions(fh, mbr, offset):$/;"	kind:function	line:97
+pe.py	../examples/pe.py	1;"	kind:file	line:1
+pestruct	../examples/pe.py	/^pestruct = cstruct.cstruct()$/;"	kind:variable	line:128
+protocol	../examples/mirai.py	/^protocol = cstruct.cstruct()$/;"	kind:variable	line:6
+read	../dissect/cstruct/cstruct.py	/^    def read(self, field_type, bits):$/;"	kind:member	line:925
+read	../dissect/cstruct/cstruct.py	/^    def read(self, name, s):$/;"	kind:member	line:230
+read	../dissect/cstruct/cstruct.py	/^    def read(self, obj, *args, **kwargs):$/;"	kind:member	line:651
+reads	../dissect/cstruct/cstruct.py	/^    def reads(self, data):$/;"	kind:member	line:626
+record	../examples/mirai.py	/^    record = protocol.MiraiAttack(data)$/;"	kind:variable	line:42
+remove_priv	../examples/secdesc.py	/^    def remove_priv(self, priv):$/;"	kind:member	line:176
+reset	../dissect/cstruct/cstruct.py	/^    def reset(self):$/;"	kind:member	line:962
+resolve	../dissect/cstruct/cstruct.py	/^    def resolve(self, name):$/;"	kind:member	line:242
+sc	../examples/secdesc.py	/^    sc = SecurityDescriptor(d)$/;"	kind:variable	line:219
+secdesc.py	../examples/secdesc.py	1;"	kind:file	line:1
+sections	../examples/pe.py	/^    sections = [pestruct.IMAGE_SECTION_HEADER(fh) for _ in range(file_header.NumberOfSections)]$/;"	kind:variable	line:157
+set_priv	../examples/secdesc.py	/^    def set_priv(self, priv):$/;"	kind:member	line:173
+setup.py	../setup.py	1;"	kind:file	line:1
+show	../dissect/cstruct/cstruct.py	/^    def show(self, indent=0):$/;"	kind:member	line:897
+signature	../examples/pe.py	/^    signature = pestruct.uint32(fh)$/;"	kind:variable	line:143
+test_basic.py	../tests/test_basic.py	1;"	kind:file	line:1
+test_bitfield	../tests/test_basic.py	/^def test_bitfield():$/;"	kind:function	line:277
+test_bitfield_be	../tests/test_basic.py	/^def test_bitfield_be():$/;"	kind:function	line:307
+test_bytes_integer_signed	../tests/test_basic.py	/^def test_bytes_integer_signed():$/;"	kind:function	line:110
+test_bytes_integer_signed_be	../tests/test_basic.py	/^def test_bytes_integer_signed_be():$/;"	kind:function	line:137
+test_bytes_integer_unsigned	../tests/test_basic.py	/^def test_bytes_integer_unsigned():$/;"	kind:function	line:91
+test_bytes_integer_unsigned_be	../tests/test_basic.py	/^def test_bytes_integer_unsigned_be():$/;"	kind:function	line:123
+test_compiled.py	../tests/test_compiled.py	1;"	kind:file	line:1
+test_compiled_bitfield	../tests/test_compiled.py	/^def test_compiled_bitfield():$/;"	kind:function	line:194
+test_compiled_enum	../tests/test_compiled.py	/^def test_compiled_enum():$/;"	kind:function	line:151
+test_compiled_int24	../tests/test_compiled.py	/^def test_compiled_int24():$/;"	kind:function	line:61
+test_compiled_int24_be	../tests/test_compiled.py	/^def test_compiled_int24_be():$/;"	kind:function	line:105
+test_compiled_struct	../tests/test_compiled.py	/^def test_compiled_struct():$/;"	kind:function	line:4
+test_compiled_uint24	../tests/test_compiled.py	/^def test_compiled_uint24():$/;"	kind:function	line:84
+test_compiled_uint24_be	../tests/test_compiled.py	/^def test_compiled_uint24_be():$/;"	kind:function	line:129
+test_constants	../tests/test_basic.py	/^def test_constants():$/;"	kind:function	line:632
+test_dumpstruct	../tests/test_basic.py	/^def test_dumpstruct(capsys):$/;"	kind:function	line:755
+test_duplicate_type	../tests/test_basic.py	/^def test_duplicate_type():$/;"	kind:function	line:588
+test_enum	../tests/test_basic.py	/^def test_enum():$/;"	kind:function	line:152
+test_enum_comments	../tests/test_basic.py	/^def test_enum_comments():$/;"	kind:function	line:233
+test_enum_name	../tests/test_basic.py	/^def test_enum_name():$/;"	kind:function	line:516
+test_expressions	../tests/test_basic.py	/^def test_expressions():$/;"	kind:function	line:696
+test_hexdump	../tests/test_basic.py	/^def test_hexdump(capsys):$/;"	kind:function	line:749
+test_load_file	../tests/test_basic.py	/^def test_load_file():$/;"	kind:function	line:601
+test_lookups	../tests/test_basic.py	/^def test_lookups():$/;"	kind:function	line:686
+test_pointers	../tests/test_basic.py	/^def test_pointers():$/;"	kind:function	line:550
+test_pointers	../tests/test_compiled.py	/^def test_pointers():$/;"	kind:function	line:215
+test_read_type_name	../tests/test_basic.py	/^def test_read_type_name():$/;"	kind:function	line:609
+test_simple_struct	../tests/test_basic.py	/^def test_simple_struct():$/;"	kind:function	line:21
+test_simple_struct_be	../tests/test_basic.py	/^def test_simple_struct_be():$/;"	kind:function	line:63
+test_simple_struct_be	../tests/test_compiled.py	/^def test_simple_struct_be():$/;"	kind:function	line:32
+test_simple_types	../tests/test_basic.py	/^def test_simple_types():$/;"	kind:function	line:8
+test_struct_definitions	../tests/test_basic.py	/^def test_struct_definitions():$/;"	kind:function	line:653
+test_struct_sizes	../tests/test_basic.py	/^def test_struct_sizes():$/;"	kind:function	line:721
+test_type_resolve	../tests/test_basic.py	/^def test_type_resolve():$/;"	kind:function	line:614
+test_typedef	../tests/test_basic.py	/^def test_typedef():$/;"	kind:function	line:678
+test_write	../tests/test_basic.py	/^def test_write():$/;"	kind:function	line:339
+test_write_be	../tests/test_basic.py	/^def test_write_be():$/;"	kind:function	line:355
+test_write_bitfield	../tests/test_basic.py	/^def test_write_bitfield():$/;"	kind:function	line:428
+test_write_bitfield_be	../tests/test_basic.py	/^def test_write_bitfield_be():$/;"	kind:function	line:451
+test_write_enum	../tests/test_basic.py	/^def test_write_enum():$/;"	kind:function	line:474
+test_write_struct	../tests/test_basic.py	/^def test_write_struct():$/;"	kind:function	line:369
+test_write_struct_be	../tests/test_basic.py	/^def test_write_struct_be():$/;"	kind:function	line:401
+url	../setup.py	/^    url="https:\/\/github.com\/fox-it\/dissect.cstruct",$/;"	kind:variable	line:15
+version	../setup.py	/^    version="1.0.0",$/;"	kind:variable	line:8
+write	../dissect/cstruct/cstruct.py	/^    def write(self, fh):$/;"	kind:member	line:458
+write	../dissect/cstruct/cstruct.py	/^    def write(self, field_type, data, bits):$/;"	kind:member	line:944
+write	../dissect/cstruct/cstruct.py	/^    def write(self, stream, data):$/;"	kind:member	line:665
+xrange	../dissect/cstruct/cstruct.py	/^    xrange = range$/;"	kind:variable	line:44
