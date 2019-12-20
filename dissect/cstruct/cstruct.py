@@ -32,6 +32,7 @@ import struct
 import ctypes as _ctypes
 from io import BytesIO
 from collections import OrderedDict
+import json
 
 try:
     from builtins import bytes as newbytes
@@ -1908,3 +1909,17 @@ def dumpstruct(t, data=None, offset=0):
     hexdump(data, palette, offset=offset)
     print()
     print(out)
+
+def serialize(ft):
+    if isinstance(ft, Instance):
+        newDict = {}
+        newDict['_type'] = str(ft._type.name)
+        newDict['_values'] = ft._values
+        newDict['_sizes'] = ft._sizes
+        return newDict
+
+def dumpstructjson(ft):
+    return json.dumps(ft, default=serialize)
+
+def loadstructjson(ft):
+    return json.loads(dumpstructjson(ft))
